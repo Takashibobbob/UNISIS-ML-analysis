@@ -26,7 +26,6 @@ dependencies:
   - openmm=8.1.2
   - openmm-torch=1.4        
   - torchani=2.2.4            
-  - moleculekit=1.9.5
   - rdkit=2024.03.5
   - lightning=2.4.0
   - pytorch-lightning=2.4.0
