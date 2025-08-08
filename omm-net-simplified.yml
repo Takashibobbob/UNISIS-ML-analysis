@@ -1,4 +1,4 @@
-ame: ML
+name: ML
 channels:
   - pytorch
   - nvidia
