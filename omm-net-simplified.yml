@@ -1,11 +1,14 @@
-name: ML
+ame: ML
 channels:
-  - conda-forge
   - pytorch
   - nvidia
+  - conda-forge
 
 dependencies:
   - python=3.11
+  - pytorch==2.1.2
+  - torchvision==0.16.2
+  - torchaudio==2.1.2
   - pip
   - numpy>=1.26,<2
   - scipy
