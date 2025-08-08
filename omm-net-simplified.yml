@@ -9,6 +9,10 @@ dependencies:
   - pytorch::pytorch==2.1.2
   - pytorch::torchvision==0.16.2
   - pytorch::torchaudio==2.1.2
+  - numpy>=1.26,<2
+  - scipy
+  - pandas
+  - matplotlib
   - pip
   - ipython
   - jinja2
@@ -24,7 +28,6 @@ dependencies:
   - captum
   - conda-forge::openmm=8.1.2
   - conda-forge::openmm-torch=1.4
-  - conda-forge::torchani=2.2.4
-  - conda-forge::rdkit=2024.03.5               
+  - conda-forge::rdkit=2024.03.5
   - lightning=2.4.0
   - pytorch-lightning=2.4.0
